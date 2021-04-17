@@ -18,7 +18,7 @@ monitors:
   - id: discordextremelist-xyz # unique identifier
     name: Discord Extreme List (Main Site)
     description: 'The main site.' # default=empty
-    url: 'https://discordextremelist.xyz/' # URL to fetch
+    url: 'https://discordextremelist.xyz/en-US/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=
@@ -33,6 +33,6 @@ monitors:
   - id: discordextremelist-gay
     name: Discord Extreme List (LGBTQ Site)
     description: 'LGBTQ extension of the main site'
-    url: 'https://discordextremelist.gay/'
+    url: 'https://discordextremelist.gay/en-US/'
     method: GET
     expectStatus: 200
