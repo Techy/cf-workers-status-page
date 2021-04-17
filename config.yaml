@@ -1,6 +1,6 @@
 settings:
-  title: 'Status Page'
-  url: 'https://emojifierbot.com' # used for Slack messages
+  title: 'Discord Extreme List Status'
+  url: 'https://discordextremelist.xyz' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -17,21 +17,22 @@ settings:
 monitors:
   - id: discordextremelist-xyz # unique identifier
     name: discordextremelist.xyz
-    description: 'You write code. They handle the rest.' # default=empty
+    description: 'The main site.' # default=empty
     url: 'https://discordextremelist.xyz/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: false # should fetch follow redirects, default=
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://testing12345aaaaaaaaaa.glitch.testme'
+  - id: api.discordextremelist.xyz
+    name: Discord Extreme List API
+    description: 'API for the site'
+    url: 'https://api.discordextremelist.xyz/'
     method: GET
     expectStatus: 200
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: discordextremelist-gay
+    name: discordextremelist.gay
+    description: 'The LGBTQ extension of the main site'
+    url: 'https://discordextremelist.gay/'
     method: GET
     expectStatus: 200
