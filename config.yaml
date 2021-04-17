@@ -32,7 +32,7 @@ monitors:
 
   - id: discordextremelist-gay
     name: Discord Extreme List (LGBTQ Site)
-    description: 'The LGBTQ extension of the main site'
+    description: 'LGBTQ extension of the main site'
     url: 'https://discordextremelist.gay/'
     method: GET
     expectStatus: 200
