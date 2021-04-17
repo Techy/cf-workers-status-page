@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: discordextremelist-xyz # unique identifier
     name: Discord Extreme List (Main Site)
-    description: 'The main site.' # default=empty
+    description: 'The main site' # default=empty
     url: 'https://discordextremelist.xyz/en-US/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
