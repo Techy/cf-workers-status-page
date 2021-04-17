@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: discordextremelist-xyz # unique identifier
-    name: discordextremelist.xyz
+    name: Discord Extreme List (Main Site)
     description: 'The main site.' # default=empty
     url: 'https://discordextremelist.xyz/' # URL to fetch
     method: GET # default=GET
@@ -31,7 +31,7 @@ monitors:
     expectStatus: 200
 
   - id: discordextremelist-gay
-    name: discordextremelist.gay
+    name: Discord Extreme List (LGBTQ Site)
     description: 'The LGBTQ extension of the main site'
     url: 'https://discordextremelist.gay/'
     method: GET
