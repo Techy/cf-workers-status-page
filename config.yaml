@@ -14,7 +14,7 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
- - id: emojifierbot.com # unique identifier
+ - id: emojifierbot # unique identifier
     name: Emojifier Bot
     description: 'The main site' # default=empty
     url: 'https://emojifierbot.com' # URL to fetch
@@ -22,7 +22,7 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=
     
- - id: docs.emojifierbot.com # unique identifier
+ - id: docs # unique identifier
     name: Emojifier Docs
     description: 'The documentation site' # default=empty
     url: 'https://docs.emojifierbot.com' # URL to fetch
@@ -30,7 +30,7 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=
     
- - id: status.emojifierbot.com # unique identifier
+ - id: status # unique identifier
     name: Emojifier Status
     description: 'The status page' # default=empty
     url: 'https://status.emojifierbot.com' # URL to fetch
@@ -38,7 +38,7 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=
     
- - id: blog.emojifierbot.com # unique identifier
+ - id: blog # unique identifier
     name: Emojifier Blog
     description: 'The blog' # default=empty
     url: 'https://blog.emojifierbot.com' # URL to fetch
@@ -46,7 +46,7 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=
     
- - id: stats.emojifierbot.com # unique identifier
+ - id: stats # unique identifier
     name: Emojifier Status
     description: 'The bot stats' # default=empty
     url: 'https://stats.emojifierbot.com' # URL to fetch
@@ -54,7 +54,7 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=
 
-  - id: emojifier.js.org
+  - id: emojifier
     name: Emojifier Bot
     description: 'The documentation site'
     url: https://emojifier.js.org'
