@@ -46,9 +46,9 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=
     
- - id: status.emojifierbot.com # unique identifier
+ - id: stats.emojifierbot.com # unique identifier
     name: Emojifier Status
-    description: 'The bot status' # default=empty
+    description: 'The bot stats' # default=empty
     url: 'https://stats.emojifierbot.com' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
