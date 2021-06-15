@@ -1,6 +1,6 @@
 settings:
-  title: 'Discord Extreme List Statusssss'
-  url: 'https://discordextremelist.xyz' # used for Slack messages
+  title: 'Discord Extreme List Status'
+  url: 'https://cf-workers-status-page-production.techy-dev.workers.dev' # used for Slack messages
   logo: main_logo_animated.gif # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
