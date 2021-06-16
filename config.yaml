@@ -1,5 +1,5 @@
 settings:
-  title: 'Discord Extreme List Status'
+  title: 'Discord Extreme List Status testing'
   url: 'https://cf-workers-status-page-production.techy-dev.workers.dev' # used for Slack messages
   logo: main_logo_animated.gif # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -36,11 +36,3 @@ monitors:
     url: 'https://discordextremelist.gay/en-US/'
     method: GET
     expectStatus: 200
-    
-  - id: status-discordextremelist-xyz
-    name: Discord Extreme Status Page
-    description: 'Site status'
-    url: 'https://status.discordextremelist.xyz'
-    method: GET
-    expectStatus: 200
-
