@@ -36,3 +36,11 @@ monitors:
     url: 'https://discordextremelist.gay/en-US/'
     method: GET
     expectStatus: 200
+    
+  - id: status-discordextremelist-xyz
+    name: Discord Extreme Status Page
+    description: 'Site status'
+    url: 'https://status.discordextremelist.xyz'
+    method: GET
+    expectStatus: 200
+
